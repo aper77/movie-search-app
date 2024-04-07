@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Movie Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a React TypeScript application that allows users to search for movies and view details about them. It utilizes Redux with thunk and slice for state management.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Allows users to search for movies.
+- Displays details about each movie.
+- Utilizes Redux with thunk and slice for state management.
+- Uses React and TypeScript for a robust and type-safe development experience.
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone the repository: `git clone https://gitlab.com/yourusername/movie-search-app.git`
+2. Navigate to the project directory: `cd movie-search-app`
+3. Install dependencies: `npm install`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+1. Start the development server: `npm start`
+2. Open your web browser and go to `http://localhost:3000` to view the application.
+3. Use the search bar to search for movies.
+4. Click on any movie to view its details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Redux
 
-### `npm run build`
+This project utilizes Redux for state management. Redux thunk middleware is used for handling asynchronous actions, and Redux slice is used for creating reducers and actions. You can find the Redux setup in the `src/redux` directory.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Contributions are welcome! If you'd like to contribute to this project, please follow these guidelines:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository on GitLab.
+2. Make your changes and commit them with descriptive commit messages.
+3. Push your changes to your fork.
+4. Submit a merge request to the main repository.
